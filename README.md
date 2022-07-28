@@ -48,3 +48,4 @@ The exe will be located in the dist folder.
 
 Enjoy!
 
+![alt text](https://raw.githubusercontent.com/gt7coder/grandturismo-srs-proxy/main/imgs/srs_screenshot.png)
