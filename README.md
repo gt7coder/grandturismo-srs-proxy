@@ -11,10 +11,6 @@ packets from the game:
 https://github.com/Nenkai/PDTools/tree/master/PDTools.SimulatorInterface
 I encourage you to donate for him!
 
-To run the script you need python 3.9 installed.
-Then you just execute as the following
-python main.py --playstation_ip 192.168.0.89
-
 The script pulls the data all the time, but only sends to SRS when the car is on the track and 
 the game is not in pause menu, I have added this for safety.
 
@@ -24,4 +20,31 @@ any damage that this could case to you or your equipment
 Keep in mind that this is an undocumented API from Grand Turismo Series, the game developer
 might patch the game and close the door in the future.
 
+-------------------
+
+To run the app download the latest release from:
+https://github.com/gt7coder/grandturismo-srs-proxy/releases
+
+Open a console window where you downloaded the grandturismo-srs-proxy.exe
+
+and type:
+.\grandturismo-srs-proxy.exe --playstation_ip 192.168.0.89
+
+-------------------
+
+To run the script via Python, you need to have at least the version 3.9 installed.
+Clone this repository and install all dependencies:
+pip install -r requirements.txt
+
+After that you just execute as the following:
+python main.py --playstation_ip 192.168.0.89
+
+-------------------
+
+To compile
+Install the dependencies and run:
+pyinstaller main.spec   
+The exe will be located in the dist folder.
+
 Enjoy!
+
